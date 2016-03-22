@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@import url("reset.css");
+
+
+/* COMMON
+============================== */
+body {
+	background:url(../media/bg.jpg) repeat;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #575757;
+	overflow-x: hidden;
+}
+body,
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+a {
+	text-decoration: none;
+}
+.doctor_info h1 {
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	color: #272829;
+	text-shadow: 0px 1px 0px #47484a, 0px -1px 0px #131414;
+}
+.doctor_info h2 {
+	font-size: 24px;
+	line-height: 40px;
+	color: #373737;
+	font-family: 'Muli', Helvetica, Arial;
+	font-weight: normal;
+	text-shadow: 0px 1px 0px #fff;
+	border-bottom: solid 1px #cecece;
+	margin-bottom: 15px;
+}
+.doctor_info h3 {
+	font-size: 14px;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+	color: #373737;
+	margin-bottom: 5px;
+}
+.doctor_info h4 {
+	font-size: 12px;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+	color: #373737;
+	line-height: 14px;
+}
+.doctor_info p {
+	margin-bottom: 10px;
+    line-height: 25px;
+    font-size: medium;
+    font-family: fantasy;
+    text-indent: 2em;
+}
+.doctor_info img{
+	width:196px;
+	height: 296px;
+}
+
+
+
+/* CONTENT
+============================== */
+.doctor_info {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+.one-three,
+.two-three,
+.full-three {
+	display: inline;
+	float: left;
+	margin: 0 10px;
+}
+.one-three{
+	width: 230px;
+}
+.two-three{
+	width: 460px;
+}
+.full-three {
+	width: 760px;
+}
+.photo-frame {
+	background: url(../images/doctor/frame-front.png) no-repeat center center;
+	width: 196px;
+	height: 286px;
+	padding: 16px 17px 47px 17px;
+}
+.group-container{
+	padding-bottom: 15px;
+}
+.separator {
+	background: url(../media/separator.png) no-repeat center center;
+	height: 60px;
+}
+
+
+
+
+
+
+
+/* CLEAR FLOAT ELEMENTS
+============================== */
+
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after,
+.content-list:before,
+.content-list:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after,
+.content-list:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix,
+.content-list {
+  zoom: 1;
+}
+
+
+
