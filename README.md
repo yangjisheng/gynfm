@@ -1,43 +1,23 @@
 # gynfm
-鼓楼医院内分泌科室网站
-$project
+[鼓楼医院内分泌科室网站](http://www.gynfm.com) 
 ========
  
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+如何使用:
  
-Look how easy it is to use:
+    下载项目
+    mvn clean
+	导入开发工具:mvn eclipse:myeclipse
+	发布war包：mvn install/mvn package
  
-    import project
-    # Get your stuff done
-    project.do_stuff()
- 
-Features
+网站截图
 --------
- 
-- Be awesome
-- Make things faster
- 
-Installation
+ ![首页](https://github.com/mafanhe/gynfm/doc/img/index.png)
+ ![医疗团队](https://github.com/mafanhe/gynfm/doc/img/doctors.png)
+ ![研究生之家](https://github.com/mafanhe/gynfm/doc/img/students.png)
 ------------
  
-Install $project by running:
- 
-    install project
- 
-Contribute
-----------
- 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
- 
-Support
--------
- 
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
- 
+
 License
 -------
  
-The project is licensed under the BSD license.
+The project is licensed under the MIT license.
