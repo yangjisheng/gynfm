@@ -3,12 +3,21 @@
 
  
 如何使用:
- 
+---------
     下载项目
     mvn clean
 	导入开发工具:mvn eclipse:myeclipse
 	发布war包：mvn install/mvn package
- 
+
+所用到的技术:	
+-------------
+	数据库：mysql
+	后台语言：Java
+	后台框架：spring mvc，Hibernate
+	前台语言：JSP，Javascript，css
+	前台框架：jquery
+	
+	
 网站截图
 --------
  ![首页](https://github.com/mafanhe/gynfm/blob/master/doc/img/index.png)
