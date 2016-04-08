@@ -1,6 +1,6 @@
 # gynfm
 [鼓楼医院内分泌科室网站](http://www.gynfm.com) 
-========
+
  
 如何使用:
  
@@ -11,9 +11,9 @@
  
 网站截图
 --------
- ![首页](https://github.com/mafanhe/gynfm/doc/img/index.png)
- ![医疗团队](https://github.com/mafanhe/gynfm/doc/img/doctors.png)
- ![研究生之家](https://github.com/mafanhe/gynfm/doc/img/students.png)
+ ![首页](https://github.com/mafanhe/gynfm/blob/master/doc/img/index.png)
+ ![医疗团队](https://github.com/mafanhe/gynfm/blob/master/doc/img/doctors.png)
+ ![研究生之家](https://github.com/mafanhe/gynfm/blob/master/doc/img/students.png)
 ------------
  
 
